@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>FooLibrary</id>
+        <version>1.0.0</version>
+        <authors>igarashi</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>My package description.</description>
+    </metadata>
+    <files>
+        <file src="ref\FooLibrary\bin\Release\netstandard1.5\FooLibrary.dll" target="ref\netstandard1.5\FooLibrary.dll" />
+        <file src="ref\FooLibrary\bin\Release\netstandard1.5\FooLibrary.pdb" target="ref\netstandard1.5\FooLibrary.pdb" />
+        <file src="src\FooLibrary\bin\Linux_Release\netstandard1.5\FooLibrary.dll" target="runtimes\linux\lib\netstandard1.5\FooLibrary.dll" />
+        <file src="src\FooLibrary\bin\Linux_Release\netstandard1.5\FooLibrary.pdb" target="runtimes\linux\lib\netstandard1.5\FooLibrary.pdb" />
+        <file src="src\FooLibrary\bin\Windows_Release\netstandard1.5\FooLibrary.dll" target="runtimes\win\lib\netstandard1.5\FooLibrary.dll" />
+        <file src="src\FooLibrary\bin\Windows_Release\netstandard1.5\FooLibrary.pdb" target="runtimes\win\lib\netstandard1.5\FooLibrary.pdb" />
+    </files>
+</package>
